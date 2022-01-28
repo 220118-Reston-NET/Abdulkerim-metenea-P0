@@ -1,0 +1,67 @@
+2022-01-27 22:32:42.934 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 22:34:50.256 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 22:43:59.609 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 22:44:05.634 -05:00 [INF] Adding Customer 
+Name: Abdu
+Address: 24 st Washington
+EmailPhoneNumber: 202 234 5678
+2022-01-27 22:44:05.646 -05:00 [WRN] Faild to Adding Customer Trying more Than (10)
+2022-01-27 22:44:36.742 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 22:46:04.009 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 22:46:09.841 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 22:46:12.889 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 22:46:15.984 -05:00 [INF] Adding Customer 
+Name: Abdu
+Address: 24 st Washington
+EmailPhoneNumber: 202 234 56781
+2022-01-27 22:46:16.009 -05:00 [WRN] Faild to Adding Customer Trying more Than (10)
+2022-01-27 22:46:41.149 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 22:46:43.860 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 22:46:50.038 -05:00 [INF] Adding Customer 
+Name: Abdu
+Address: 24 st Washington
+EmailPhoneNumber: 202 234 567815
+2022-01-27 22:46:50.039 -05:00 [WRN] Faild to Adding Customer Trying more Than (10)
+2022-01-27 23:06:05.097 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:06:08.995 -05:00 [INF] Exit Application
+2022-01-27 23:06:35.168 -05:00 [INF] Exit Application
+2022-01-27 23:07:18.132 -05:00 [INF] Exit Application
+2022-01-27 23:10:14.278 -05:00 [INF] Exit Application
+2022-01-27 23:10:30.076 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 23:10:33.408 -05:00 [INF] Adding Customer 
+Name: Abdu
+Address: 24 st Washington
+EmailPhoneNumber: 202 234 5678
+2022-01-27 23:10:33.416 -05:00 [WRN] Faild to Adding Customer Trying more Than (10)
+2022-01-27 23:10:36.158 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:10:38.293 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:10:40.839 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:10:47.115 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:10:50.227 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:10:55.336 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:10:57.500 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:11:00.616 -05:00 [INF] Exit Application
+2022-01-27 23:16:17.949 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 23:16:21.507 -05:00 [INF] Adding Customer 
+Name: Abdu
+Address: 24 st Washington
+EmailPhoneNumber: 202 234 5678
+2022-01-27 23:16:21.515 -05:00 [WRN] Faild to Adding Customer Trying more Than (10)
+2022-01-27 23:16:30.831 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:19:02.433 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 23:25:13.158 -05:00 [INF] Adding Customer 
+Name: Abdu
+Address: 24 st Washington
+EmailPhoneNumber: 202 234 56787
+2022-01-27 23:25:13.179 -05:00 [WRN] Faild to Adding Customer Trying more Than (10)
+2022-01-27 23:25:26.737 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:25:47.636 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 23:26:07.252 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 23:26:24.195 -05:00 [INF] Displaying AddCustomer Menu to user
+2022-01-27 23:26:34.061 -05:00 [INF] Adding Customer 
+Name: Ali
+Address: rdf st DC
+EmailPhoneNumber: 202 234 567871
+2022-01-27 23:26:34.062 -05:00 [WRN] Faild to Adding Customer Trying more Than (10)
+2022-01-27 23:26:51.090 -05:00 [INF] Displaying MainMenu to user
+2022-01-27 23:26:53.675 -05:00 [INF] Exit Application

@@ -1,39 +1,43 @@
+
 namespace storeModel
 {
     public class Orders
     {
-        private int TotalPrice;
-        public int storeFront
+        public string storeAddress {get;set;}
+        public int _totalPrice ;
+        public int TotalPrice
         {
-            get { return TotalPrice; }
-            
-        }
-
-
-        //Full property is needed to add validation
-        public List<items> items
-        {
-            get { return   items; }
-            //You can not order more than 10 items at time
-            set
-            {
-                if (value < 10)
+            get {return _totalPrice;}
+            set{
+                if (value < 1000 )
                 {
-                    items = value;
+                    _totalPrice = value;
                 }
                 else
                 {
-                    throw new Exception("You cannot order more than 10!");
+                    throw new Exception("you can not order More Than $1000");
                 }
             }
+
         }
-        // public int TotalPrice
-        // {
-        //     get { return Price; }
-        //     set { Quantity* Price; }
+        private List<LineItems> _items;
+        public List<LineItems> LineItems
+        {
+            get{return _items;}
+            set {_items = value;}
+        }
+        public Orders()
+        {   
+            storeAddress = "3340 st CA";
+            TotalPrice = 0;
+            _items = new List<LineItems>()
+            {
+                 new LineItems()
+            };
 
-        // }
-
+        }
+        
+       
     }
     
 }

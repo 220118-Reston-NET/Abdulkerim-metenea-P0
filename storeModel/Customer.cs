@@ -5,33 +5,35 @@ namespace storeModel
         public string Name { get; set; }
         public string Address { get; set; }
         public string EmailPhoneNumber { get; set; }
-
+        private List<Orders> _order;
         public List<Orders> Orders
         {
-            get { return Orders; }
-            set
-            {
-                if (value.Count > 10)
+            get{return _order;}
+            set {
+                if (value.Count  > 10)
                 {
-                    Orders = value;
+                    _order = value;
                 }
-                else
-                {
-                    throw new Exception("Sorry Out of Store!");
+                else{
+                    throw new Exception("One Customer can not order More Than 10 items!");
                 }
             }
-
         }
         public Customer()
         {
-            Name = "Jhone";
-            Address = "5672 st NY";
-            EmailPhoneNumber = "cust@gmail.com";
-            Orders = new List<Orders>()
-            {
-                new Orders()
+            Name = "Abdu";
+            Address = "24 st Washington" ;
+            EmailPhoneNumber = "202 234 5678" ;
+            _order = new List<Orders>() 
+            { 
+                 new Orders()
             };
         }
+        public override string ToString()
+        {
+            return $"Name: {Name}\nAddress: {Address}\nEmailPhoneNumber: {EmailPhoneNumber}";
+        }
     }
+
 }
 

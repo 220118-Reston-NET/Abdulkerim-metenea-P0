@@ -3,33 +3,25 @@ namespace storeModel
 {
     public class StoreFront
     {
-        private string _Name;
-        public string _Address;
-        public string Orders;
+        private string _name;
+        private string _address;
+        public List<string> Products = new List<string>();
         public string Name
         {
-            get { return Name; }
+            get { return _name; }
+            set { _name = value; }
 
         }
-        public string Address
+        public string StorAddress
         {
-            get { return Address; }
-            set { Address = value; }
+            get { return _address; }
+            set { _address = value; }
         }
-        public List<Products> Products
-        {
-            get { return Products; }
-            set
-            {
-                if (value.Count > 10)
-                {
-                    Products = value;
-                }
-                else
-                {
-                    throw new Exception("Sorry Out of Store!");
-                }
-            }
-        }
+        public List<string> Orders = new List<string>();
+         public List<string>CustOrders()
+         {
+           return Orders;
+       
+         }
     }
 }
