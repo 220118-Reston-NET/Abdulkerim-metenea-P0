@@ -9,14 +9,13 @@ namespace storeUI
         {
             _CustBL = p_CustBL;
         }
+
         public void Display()
         {
-            Console.WriteLine("select an option to check If you're Already In Customer Database");
-            Console.WriteLine("[1] by Phone");
-            Console.WriteLine("[9] Add Orders");
+            Console.WriteLine("please Press 2 And check by your Name");
+            Console.WriteLine("[2] Check by Name");
             Console.WriteLine("[0] Go Back");
         }
-
         public string UserChoice()
         {
             string userInput = Console.ReadLine();
@@ -24,16 +23,35 @@ namespace storeUI
             {
                 case "0":
                     return "MainMenu";
-                case "1":
+                case "2":
                      //apply to Grap user Input
-                    Console.WriteLine("please Enter a Phone Number");
+                    Console.WriteLine("please Enter Your Name");
                     string name = Console.ReadLine();
-                    //Apply Display The Reasult
-                    List<Customer> ListOfCustomer = _CustBL.SearchCustomer(name);
-                    foreach (var item in ListOfCustomer)
+                    // string pastorder = Console.ReadLine();
+                    List<Customer> listOfCustomer = _CustBL.SearchCustomer(name);
+                    // List<Orders> ListOfOrders = _CustBL.SearchOrders(pastorder);
+                    // bool true = listOfCustomer.Contains(CustName);
+                    // if(true)
+                    // {
+                        // foreach (var item in listOfCustomer)
+                        // {
+                        //     Console.WriteLine("************");
+                        //     Console.WriteLine(item);
+                        // }
+                    // }
+                    // else
+                    // {
+                    //     Console.WriteLine("Customer hasn't Registord please add you information");
+                    //     return "MainMenu";
+                    // }
+                    foreach (var item in listOfCustomer)
                     {
-                       Console.WriteLine("************");
-                       Console.WriteLine("item");
+                        Console.WriteLine("************");
+                        Console.WriteLine(item);
+                        // foreach( var orderhistory in ListOfOrders)
+                        // {
+                        //     Console.WriteLine(orderhistory);
+                        // }
                     }
                     Console.WriteLine("Press Enter to Continue");
                     Console.ReadLine();

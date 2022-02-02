@@ -16,9 +16,9 @@ namespace storeBL
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="p_name"></param>
+        /// <param name="p_CustName"></param>
         /// <returns> filterd list of Customer</returns>
-        List<Customer>  SearchCustomer(string p_name);
+        List<Customer>  SearchCustomer(string p_CustName);
 
     }
 }

@@ -3,24 +3,18 @@ namespace storeModel
 {
     public class StoreFront
     {
-        private string _name;
-        private string _address;
-        public List<string> Products = new List<string>();
-        public string Name
-        {
-            get { return _name; }
-            set { _name = value; }
-
-        }
-        public string StorAddress
-        {
-            get { return _address; }
-            set { _address = value; }
-        }
-        public List<string> Orders = new List<string>();
-         public List<string>CustOrders()
+        public int StoreID {get;set;}
+        public string StoreName {get;set;}
+        public String StoreAddress{get;set;}
+        public List<Products> Products { get; set; }
+        public List<Orders> Orders{get;set;}
+        public StoreFront()
          {
-           return Orders;
+            StoreID = 10;
+            StoreName = "NewTech";
+            StoreAddress="22 st somewher";
+            Products = new List<Products>(){ new Products() };
+            Orders = new List<Orders>(){ new Orders() };
        
          }
     }

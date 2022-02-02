@@ -21,7 +21,7 @@ while (repeat)
 
     switch (ans)
     {
-        case "searchCustomer":
+        case "SearchCustomer":
             Log.Information("Displaying searchCustomer Menu to user");
             menu = new SearchCustomerMenu(new CustomerBL(new Repository()));
             break;
