@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "storeDL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "storeModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/storeDL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/storeDL.dll": {}
+        }
+      },
+      "storeModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/storeModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/storeModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "storeDL/1.0.0": {
+      "type": "project",
+      "path": "../storeDL/storeDL.csproj",
+      "msbuildProject": "../storeDL/storeDL.csproj"
+    },
+    "storeModel/1.0.0": {
+      "type": "project",
+      "path": "../storeModel/storeModel.csproj",
+      "msbuildProject": "../storeModel/storeModel.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "storeDL >= 1.0.0",
+      "storeModel >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Abduj\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Abduj\\Documents\\Revature\\220118-Reston-.NET\\C#\\StoreApp\\storeBL\\storeBL.csproj",
+      "projectName": "storeBL",
+      "projectPath": "C:\\Users\\Abduj\\Documents\\Revature\\220118-Reston-.NET\\C#\\StoreApp\\storeBL\\storeBL.csproj",
+      "packagesPath": "C:\\Users\\Abduj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Abduj\\Documents\\Revature\\220118-Reston-.NET\\C#\\StoreApp\\storeBL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Abduj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Abduj\\Documents\\Revature\\220118-Reston-.NET\\C#\\StoreApp\\storeDL\\storeDL.csproj": {
+              "projectPath": "C:\\Users\\Abduj\\Documents\\Revature\\220118-Reston-.NET\\C#\\StoreApp\\storeDL\\storeDL.csproj"
+            },
+            "C:\\Users\\Abduj\\Documents\\Revature\\220118-Reston-.NET\\C#\\StoreApp\\storeModel\\storeModel.csproj": {
+              "projectPath": "C:\\Users\\Abduj\\Documents\\Revature\\220118-Reston-.NET\\C#\\StoreApp\\storeModel\\storeModel.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

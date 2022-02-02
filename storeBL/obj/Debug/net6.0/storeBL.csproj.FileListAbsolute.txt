@@ -1,0 +1,17 @@
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\bin\Debug\net6.0\storeBL.deps.json
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\bin\Debug\net6.0\storeBL.dll
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\bin\Debug\net6.0\ref\storeBL.dll
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\bin\Debug\net6.0\storeBL.pdb
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\bin\Debug\net6.0\storeDL.dll
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\bin\Debug\net6.0\storeModel.dll
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\bin\Debug\net6.0\storeModel.pdb
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\bin\Debug\net6.0\storeDL.pdb
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\obj\Debug\net6.0\storeBL.csproj.AssemblyReference.cache
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\obj\Debug\net6.0\storeBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\obj\Debug\net6.0\storeBL.AssemblyInfoInputs.cache
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\obj\Debug\net6.0\storeBL.AssemblyInfo.cs
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\obj\Debug\net6.0\storeBL.csproj.CoreCompileInputs.cache
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\obj\Debug\net6.0\storeBL.csproj.CopyComplete
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\obj\Debug\net6.0\storeBL.dll
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\obj\Debug\net6.0\ref\storeBL.dll
+C:\Users\Abduj\Documents\Revature\220118-Reston-.NET\C#\StoreApp\storeBL\obj\Debug\net6.0\storeBL.pdb
