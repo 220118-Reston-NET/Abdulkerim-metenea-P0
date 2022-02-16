@@ -10,12 +10,17 @@ namespace storeModel
         public List<Orders> Orders{get;set;}
         public StoreFront()
          {
-            StoreID = 10;
             StoreName = "NewTech";
             StoreAddress="22 st somewher";
             Products = new List<Products>(){ new Products() };
             Orders = new List<Orders>(){ new Orders() };
-       
          }
+         
+        public override string ToString()
+        {
+            return $"StoreID: {StoreID}\nStoreName: {StoreName}\nStoreAddress: {StoreAddress}";
+        }
+    
     }
+
 }

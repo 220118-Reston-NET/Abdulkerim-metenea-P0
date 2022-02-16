@@ -5,20 +5,24 @@ namespace storeModel
     { 
         public int ProductID {get;set;}
         public string ProductName { get; set; }
-        public double price { get; set; }
-        public string Desc { get; set; }
-        public string Category  { get; set; }
-
+        public int Price { get; set; }
+        public string? Description { get; set; }
+        public string? Category  { get; set; }
         public  Products()
         {     
-            ProductID =001;
             ProductName = " Water";
-            price = 4.00;
-            Desc = "Package";
+            Price =0;
+            Description = "Package";
             Category = "Beverage";
         }
-        
+
+        public override string ToString()
+        {
+            return $"ProductID: {ProductID}\nProductName: {ProductName}\nPrice:{Price}\nDescription: {Description}\nCategory: {Category}";
+        }
     }
+
+    
 }
 
 

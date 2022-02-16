@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storeDL", "storeDL\storeDL.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storeBL", "storeBL\storeBL.csproj", "{DC9003A3-3354-4BC4-9CF2-D62ADF25BE0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreAppApi", "storeappApi\StoreAppApi.csproj", "{4A568031-2EE3-42F1-ABB7-20E6782CF12A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreAppTest", "storeAppTest\StoreAppTest.csproj", "{E74EABEB-4FDF-4503-8094-65E6D9A0758F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{DC9003A3-3354-4BC4-9CF2-D62ADF25BE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC9003A3-3354-4BC4-9CF2-D62ADF25BE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC9003A3-3354-4BC4-9CF2-D62ADF25BE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A568031-2EE3-42F1-ABB7-20E6782CF12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A568031-2EE3-42F1-ABB7-20E6782CF12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A568031-2EE3-42F1-ABB7-20E6782CF12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A568031-2EE3-42F1-ABB7-20E6782CF12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74EABEB-4FDF-4503-8094-65E6D9A0758F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74EABEB-4FDF-4503-8094-65E6D9A0758F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74EABEB-4FDF-4503-8094-65E6D9A0758F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74EABEB-4FDF-4503-8094-65E6D9A0758F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
